@@ -13,7 +13,7 @@ cask "qforge" do
     strategy :github_latest
   end
 
-  app "QForge.app"
+  app "SQL-Workbench.app"
 
   zap trash: [
     "~/.qforge",
