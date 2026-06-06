@@ -1,6 +1,6 @@
 cask "qforge" do
-  version "1.0.0"
-  sha256 "a2374b041f831c84fe4703fa188e9a0fbf91365b8080493adb13e2da95af3be9"
+  version "1.0.1"
+  sha256 "899fb82fac12f0fcbc660d5a73f109e1286207fb6c3a2ca41e26da0da9bbca05"
 
   url "https://github.com/AdarshaGS/QForge/releases/download/v#{version}/SQL-Workbench.dmg"
 
