@@ -1,11 +1,10 @@
 cask "qforge" do
-  version "1.0.1"
-  sha256 "215ae03c2c5578ce8d884b8ba114fe7438bf537ff7a94738a2788f02de5a5952"
+  version "1.0.2"
+  sha256 "8da3c1a4f135f00eac05dad1ae08b346a8ccfd7bbca8753edd2f2566be9d8d1b"
 
   url "https://github.com/AdarshaGS/QForge/releases/download/v#{version}/QForge.dmg"
-
   name "QForge"
-  desc "Lightweight native database client for developers"
+  desc "Professional database client — free alternative to TablePlus"
   homepage "https://github.com/AdarshaGS/QForge"
 
   livecheck do
@@ -16,8 +15,15 @@ cask "qforge" do
   app "QForge.app"
 
   zap trash: [
-    "~/.qforge",
-    "~/Library/Preferences/com.qforge.plist",
-    "~/Library/Saved Application State/com.qforge.savedState",
+    "~/Library/Application Support/QForge",
+    "~/Library/Preferences/com.qforge.app.plist",
+    "~/Library/Saved Application State/com.qforge.app.savedState",
   ]
+
+  caveats <<~EOS
+    Launch QForge from Applications, or run:
+      open -a QForge
+
+    Docs & source: https://github.com/AdarshaGS/QForge
+  EOS
 end
