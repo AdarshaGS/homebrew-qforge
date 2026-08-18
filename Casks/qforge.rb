@@ -4,7 +4,7 @@ cask "qforge" do
 
   url "https://github.com/AdarshaGS/QForge/releases/download/v#{version}/QForge.dmg"
   name "QForge"
-  desc "Professional database client — free alternative to TablePlus"
+  desc "SQL client for MySQL, PostgreSQL, and SQLite"
   homepage "https://github.com/AdarshaGS/QForge"
 
   livecheck do
