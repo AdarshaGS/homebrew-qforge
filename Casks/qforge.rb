@@ -1,6 +1,6 @@
 cask "qforge" do
-  version "1.2.0"
-  sha256 "772f4e9e6f1f31f602bc4df8b8ea7e4dd7e8370ffafeb67546ff1304c0c26333"
+  version "1.3.0"
+  sha256 "5173391a2f1f8490e36d2025bd3cdc0caf1089073209f438eafc1ff4505f16e5"
 
   url "https://github.com/AdarshaGS/QForge/releases/download/v#{version}/QForge.dmg"
   name "QForge"
