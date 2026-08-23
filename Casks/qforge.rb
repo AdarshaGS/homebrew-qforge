@@ -2,10 +2,10 @@ cask "qforge" do
   version "1.4.0"
   sha256 "89c3924360498405f322c4a002887503ff0a2b7082d6d921b2c422149a0722c6"
 
-  url "https://github.com/AdarshaGS/QForge/releases/download/v#{version}/QForge.dmg"
+  url "https://github.com/AdarshaGS/QForge-releases/releases/download/v#{version}/QForge.dmg"
   name "QForge"
   desc "SQL client for MySQL, PostgreSQL, and SQLite"
-  homepage "https://github.com/AdarshaGS/QForge"
+  homepage "https://qforge-licensing-production.up.railway.app"
 
   livecheck do
     url :url
@@ -24,6 +24,6 @@ cask "qforge" do
     Launch QForge from Applications, or run:
       open -a QForge
 
-    Docs & source: https://github.com/AdarshaGS/QForge
+    Docs & source: https://qforge-licensing-production.up.railway.app
   EOS
 end
